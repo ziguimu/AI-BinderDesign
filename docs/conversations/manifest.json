@@ -1,0 +1,120 @@
+{
+  "project": "AI-BinderDesign",
+  "redaction_policy": "Message order and original language retained. Local absolute paths, profile data, emails, conversation/message UUIDs, private IPs, loopback endpoints and credential-shaped strings are redacted. Public SHA-256 values are for the published copy; source hashes identify local originals.",
+  "records": [
+    {
+      "record_id": "MD-012",
+      "title": "EGFR binder design and paper/report analysis",
+      "source_relative_path": "解压记录/EGFR-Binder设计分析/EGFR-Binder设计分析.md",
+      "public_path": "docs/conversations/2026-10_EGFR_binder_analysis_MD-012.md",
+      "source_bytes": 373701,
+      "public_bytes": 370871,
+      "source_sha256": "76c059b5a480048d889958a6bc900ade50e32be604c03aef680cf621eddbcf63",
+      "public_sha256": "be6a4bc65c643504c7ed7cea40941ae7837a5209e18cadb1b0739d7fa379437f",
+      "redactions_applied": {
+        "PRP_ROOT": 31,
+        "USER_HOME": 282,
+        "WSL_PATH": 3,
+        "LOCAL_PATH": 154,
+        "email": 1,
+        "uuid": 1,
+        "private_ip": 27,
+        "loopback": 47
+      },
+      "message_header_counts": {
+        "user": 107,
+        "assistant": 107
+      },
+      "coverage": "Imported Markdown header counts are inventory clues only; complete source thread and branch coverage are unverified.",
+      "attachments": "No separate attachment bundle was linked to this imported record in the inventory; references, if any, are not claimed as restored."
+    },
+    {
+      "record_id": "MD-013",
+      "title": "EGFR mouse-result follow-up",
+      "source_relative_path": "清理鼠源EGFR结果-.md",
+      "public_path": "docs/conversations/2026-10_EGFR_mouse_result_followup_MD-013.md",
+      "source_bytes": 235638,
+      "public_bytes": 219822,
+      "source_sha256": "6f01353333089408259095b02173362d1b4f75417163b646e6b276504e9dd2a5",
+      "public_sha256": "83a6b725d277c7d2baecadfa2e5897f2aa8dd027060b76ba91a9d35a33cbacc9",
+      "redactions_applied": {
+        "USER_HOME": 23,
+        "LOCAL_PATH": 269,
+        "uuid": 1
+      },
+      "message_header_counts": {
+        "user": 61,
+        "assistant": 61
+      },
+      "coverage": "Imported Markdown header counts are inventory clues only; complete source thread and branch coverage are unverified.",
+      "attachments": "No separate attachment bundle was linked to this imported record in the inventory; references, if any, are not claimed as restored."
+    },
+    {
+      "record_id": "MD-030",
+      "title": "EGFR/TNF presentation report review",
+      "source_relative_path": "提取并讲解PPT信息.md",
+      "public_path": "docs/conversations/2026-10_EGFR_TNF_report_review_MD-030.md",
+      "source_bytes": 58507,
+      "public_bytes": 58477,
+      "source_sha256": "816b70d62c0a87a9e45001e289f4b76e2f38fa51de46ace9b639977cfb1cc2c8",
+      "public_sha256": "e1f801d876183bd1b49e800a3ea907fff4490e2458b6dbbc4a41d2a84db9947c",
+      "redactions_applied": {
+        "uuid": 1
+      },
+      "message_header_counts": {
+        "user": 9,
+        "assistant": 9
+      },
+      "coverage": "Imported Markdown header counts are inventory clues only; complete source thread and branch coverage are unverified.",
+      "attachments": "No separate attachment bundle was linked to this imported record in the inventory; references, if any, are not claimed as restored."
+    },
+    {
+      "record_id": "MD-045",
+      "title": "TNF binder design task",
+      "source_relative_path": "TNF结合剂设计.md",
+      "public_path": "docs/conversations/2026-10_TNF_binder_design_MD-045.md",
+      "source_bytes": 160834,
+      "public_bytes": 157727,
+      "source_sha256": "af91da050ebd4633cebd6cbe3193ed840713dcab13f9a5809e53e520debb8da4",
+      "public_sha256": "cf051729e3fc352339c50d906ddb0c2a19a3aafefa7fdfc672b740332807c850",
+      "redactions_applied": {
+        "PRP_ROOT": 11,
+        "USER_HOME": 31,
+        "LOCAL_PATH": 78,
+        "email": 8,
+        "uuid": 1
+      },
+      "message_header_counts": {
+        "user": 34,
+        "assistant": 34
+      },
+      "coverage": "Imported Markdown header counts are inventory clues only; complete source thread and branch coverage are unverified.",
+      "attachments": "No separate attachment bundle was linked to this imported record in the inventory; references, if any, are not claimed as restored."
+    },
+    {
+      "record_id": "6ad38028",
+      "title": "AI-BinderDesign EGFR/TNF benchmark and report review",
+      "source_relative_path": "2026-10-31_ChatGPT导出补充审阅/6ad38028_核对后续页面.md",
+      "public_path": "docs/conversations/2026-10-17_EGFR_TNF_report_review_6ad38028.md",
+      "source_bytes": 430811,
+      "public_bytes": 426761,
+      "source_sha256": "c9128591b89dc3958b8138fad6c87dc414cb6ccea2e0d50dd7b2ee5da46e4f80",
+      "public_sha256": "ecd563a7fbbb935179fcd92ac75e5054aff54f72c86fb4ab8f3e93919f579e46",
+      "redactions_applied": {
+        "uuid": 135
+      },
+      "message_counts": {
+        "user_visible": 67,
+        "assistant_visible": 67
+      },
+      "branch_points": 0,
+      "coverage": "partial semantic review; visible message counts are from the export inventory",
+      "attachments": "No attachment files were copied into this transcript package; source-export attachment coverage remains as recorded in the local archive."
+    }
+  ],
+  "existing_history_record": {
+    "record_id": "6ad4ae35",
+    "public_path": "docs/history/github-project-setup_2026-10-18.md",
+    "note": "Existing sanitized transcript; its per-file source/public hashes remain in docs/history/manifest.json."
+  }
+}

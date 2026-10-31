@@ -40,3 +40,11 @@ A selected, redacted 2026-10-18 conversation records the original repository org
 ## 历史规划对话
 
 [查看 2026-10-18 的精选脱敏对话](docs/history/github-project-setup_2026-10-18.md)。记录最初的仓库结构设想与先核实来源再整理的原则，保留导出中四条用户可见消息的顺序，并脱敏本机路径和完整会话/消息 UUID。该记录仅是规划背景，不表示当时已完成这些操作。
+
+## Conversation archive
+
+Redacted project chat records with source/public hashes and coverage notes are indexed in [docs/conversations](docs/conversations/README.md). The source Markdown records are not treated as complete account exports. One transcript references 15 screenshots from a third-party paper; those attachments are omitted from the public copy and retained with the local source archive.
+
+### 对话记录
+
+项目相关对话的脱敏版本、原始/公开哈希及覆盖说明见[对话索引](docs/conversations/README.md)。这些来源 Markdown 不等同于完整账户导出。其中一份记录引用 15 张第三方论文截图，公开副本不含这些附件；本地来源归档保留原附件。
