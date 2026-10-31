@@ -1,0 +1,23 @@
+{
+  "source_file_name": "6ad4ae35-4e48-83ea-a712-e9b51797705a_GitHub项目搭建.md",
+  "source_sha256": "73f5a0ac99cd2d66765ed8bf1367e4df871346140956bc621fc2779d2b052261",
+  "public_file": "docs/history/github-project-setup_2026-10-18.md",
+  "public_sha256": "ce9eb999c80ca44741683f6d90e24b5d8e6f3a56e664408dc8453d9ba4a79426",
+  "source_bytes": 13834,
+  "public_bytes": 14634,
+  "redactions_applied": 14,
+  "message_coverage": {
+    "user": 2,
+    "assistant": 2,
+    "internal_reasoning": "excluded",
+    "attachments": "none listed"
+  },
+  "post_redaction_scan": {
+    "credential": 0,
+    "email": 0,
+    "phone": 0,
+    "profile_id": 0,
+    "host": 0,
+    "uuid": 0
+  }
+}

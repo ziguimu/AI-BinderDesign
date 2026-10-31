@@ -32,3 +32,11 @@ Historical commands, software versions, and missing details are recorded alongsi
 项目使用选定阳性与阴性对照评估结构预测和置信度指标。计算置信度及界面指标不能证明实验亲和力。应结合每张表中的物种、模型、靶标构建体和对照标签解读。本仓库保存既有结果，不表示重新运行了科学计算。
 
 大型原始预测产物将作为带版本的 GitHub Release 附件，并提供逐文件 SHA-256 清单。历史命令、软件版本和缺失信息以实际留存材料为准，不宣称已完成独立全流程复现。
+
+## Historical planning conversation
+
+A selected, redacted 2026-10-18 conversation records the original repository organization proposal and its evidence-first setup constraints: [read the partial historical transcript](docs/history/github-project-setup_2026-10-18.md). It preserves the four exported user-visible messages and redacts local machine paths and full conversation/message UUIDs. The transcript is planning context and does not claim those steps had already been completed.
+
+## 历史规划对话
+
+[查看 2026-10-18 的精选脱敏对话](docs/history/github-project-setup_2026-10-18.md)。记录最初的仓库结构设想与先核实来源再整理的原则，保留导出中四条用户可见消息的顺序，并脱敏本机路径和完整会话/消息 UUID。该记录仅是规划背景，不表示当时已完成这些操作。
