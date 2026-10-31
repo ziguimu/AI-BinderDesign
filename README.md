@@ -19,7 +19,7 @@ The archived work evaluates structural prediction and confidence metrics against
 - `scripts/`: analysis and summary-building scripts.
 - `results/benchmark_summaries/`: source summary tables.
 - `docs/AI-BinderDesign.pptx`: original project report.
-- Large original prediction outputs will be attached as versioned GitHub Releases with per-file SHA-256 manifests.
+- [Download the archived EGFR and TNF source trees](https://github.com/ziguimu/AI-BinderDesign/releases/tag/archive-2026-10-31); each asset includes a per-file SHA-256 manifest.
 
 ## Reproduction status
 
