@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+
+# Full prediction outputs are distributed as versioned Release bundles.
+/EGFR_binder_design/
+/TNF_benchmark/

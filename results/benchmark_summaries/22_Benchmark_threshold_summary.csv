@@ -1,0 +1,7 @@
+system,class,total,ipTM_pass,ipSAE_pass,PAE_pass,contacts_pass,all_pass
+7D12_human,negative,3,0,3,0,3,0
+cetuximab_human,human_positive,3,3,3,3,3,3
+EGF_human,human_positive,3,3,3,3,3,3
+mEGFR_7D12,negative,5,1,5,3,5,1
+mEGFR_cetuximab,mouse_positive,5,5,5,5,5,5
+mEGFR_EGF,mouse_positive,5,5,5,5,5,5

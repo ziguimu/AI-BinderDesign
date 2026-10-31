@@ -1,0 +1,128 @@
+EGFR DIII 结合控制体系总汇总表
+Human / Mouse EGFR × ColabFold / Boltz
+Species	Method	System	N	Mean pLDDT	Mean pTM	Mean ipTM	Mean confidence
+Human	ColabFold	EGFR + EGF	9	91.41	0.887	0.818	—
+Human	ColabFold	EGFR + 7D12	11	85.56	0.655	0.309	—
+Human	ColabFold	EGFR + Cetuximab	6	94.64	0.878	0.827	—
+Human	Boltz	EGFR + EGF	3	90.81	0.965	0.930	0.912
+Human	Boltz	EGFR + 7D12	3	92.85	0.780	0.359	0.815
+Human	Boltz	EGFR + Cetuximab	3	98.31	0.957	0.955	0.977
+Mouse	ColabFold	mEGFR + EGF	5	90.53	0.880	0.788	—
+Mouse	ColabFold	mEGFR + 7D12	5	74.04	0.684	0.200	—
+Mouse	ColabFold	mEGFR + Cetuximab	5	92.73	0.816	0.744	—
+Mouse	Boltz	mEGFR + EGF	4	92.14	0.950	0.894	0.916
+Mouse	Boltz	mEGFR + 7D12	4	89.84	0.820	0.508	0.820
+Mouse	Boltz	mEGFR + Cetuximab	4	96.99	0.896	0.864	0.949
+
+
+单体系详细数据
+Human ColabFold
+EGFR + EGF
+Rank	Model	pLDDT	pTM	ipTM
+1	model_1	93.161	0.90	0.85
+2	model_2	90.963	0.88	0.80
+3	model_3	90.541	0.88	0.80
+4	model_1(run2)	92.758	0.90	0.84
+5	model_2(run2)	90.819	0.88	0.81
+6	model_3(run2)	89.774	0.87	0.78
+7	model_1(run3)	93.004	0.90	0.85
+8	model_2(run3)	91.162	0.88	0.82
+9	model_3(run3)	90.472	0.88	0.80
+
+
+Human + 7D12
+N	pTM	ipTM
+11 models	0.65左右	0.31左右
+
+
+趋势：
+- pLDDT正常
+- ipTM低
+- pDockQ2低
+- 阴性结合趋势
+Human + Cetuximab
+Rank	pLDDT	pTM	ipTM
+1	95.35	0.92	0.90
+2	95.31	0.90	0.87
+3	93.96	0.83	0.77
+4	95.21	0.91	0.89
+5	94.91	0.88	0.85
+6	94.01	0.83	0.77
+
+
+Human Boltz
+EGFR + EGF
+Model	confidence	pTM	ipTM	pLDDT
+0	0.9153	0.9677	0.9389	0.9094
+1	0.9117	0.9675	0.9352	0.9058
+2	0.9103	0.9590	0.9143	0.9093
+
+
+Mean:
+confidence	pTM	ipTM	pLDDT
+0.9124	0.9647	0.9295	0.9081
+
+
+EGFR + 7D12
+Mean:
+confidence	pTM	ipTM	pLDDT
+0.8145	0.7798	0.3588	0.9285
+
+
+EGFR + Cetuximab
+Mean:
+confidence	pTM	ipTM	pLDDT
+0.9774	0.9570	0.9546	0.9831
+
+
+Mouse ColabFold
+mEGFR + EGF
+Mean:
+pLDDT	pTM	ipTM
+90.530	0.880	0.788
+
+
+mEGFR + 7D12
+Mean:
+pLDDT	pTM	ipTM
+74.043	0.684	0.200
+
+
+mEGFR + Cetuximab
+Mean:
+pLDDT	pTM	ipTM
+92.731	0.816	0.744
+
+
+Mouse Boltz
+mEGFR + EGF
+4 repeats:
+repeat	confidence	pTM	ipTM	pLDDT
+1	0.9105	0.9454	0.8845	0.9170
+2	0.9207	0.9514	0.8970	0.9266
+3	0.9236	0.9529	0.8990	0.9297
+4	0.9089	0.9506	0.8950	0.9124
+
+
+Mean:
+confidence	pTM	ipTM	pLDDT
+0.9159	0.9501	0.8939	0.9214
+
+
+mEGFR + 7D12
+Mean:
+confidence	pTM	ipTM	pLDDT
+0.8203	0.8201	0.5078	0.8984
+
+
+mEGFR + Cetuximab
+Mean:
+confidence	pTM	ipTM	pLDDT
+0.9486	0.8961	0.8636	0.9699
+
+
+最终趋势总结（可直接用于报告）
+体系	Human	Mouse	结论
+EGF	高 ipTM	高 ipTM	阳性结合控制
+Cetuximab	最高	高	阳性结合控制
+7D12	低	低	弱结合/阴性控制

@@ -1,0 +1,112 @@
+1. Human EGFR ColabFold 原始数据
+EGF_human（9个模型）
+Run	Rank	Model	pLDDT	pTM	ipTM
+run1	001	model_1	93.161	0.90	0.85
+run1	002	model_2	90.963	0.88	0.80
+run1	003	model_3	90.541	0.88	0.80
+run2	001	model_1	92.758	0.90	0.84
+run2	002	model_2	90.819	0.88	0.81
+run2	003	model_3	89.774	0.87	0.78
+run3	001	model_1	93.004	0.90	0.85
+run3	002	model_2	91.162	0.88	0.82
+run3	003	model_3	90.472	0.88	0.80
+
+
+7D12_human（11个模型）
+Run	Rank	pTM	ipTM	pLDDT
+run1	001	0.69	0.40	85.745
+run1	002	0.66	0.31	84.264
+run1	003	0.65	0.30	84.515
+run1	004	0.64	0.26	85.527
+run1	005	0.63	0.25	85.362
+run2	001	0.71	0.44	86.185
+run2	002	0.65	0.30	85.915
+run2	003	0.64	0.28	85.276
+run3	001	0.67	0.33	86.198
+run3	002	0.66	0.32	84.964
+run3	003	0.64	0.25	85.267
+
+
+Cetuximab_human（6个模型）
+Run	Rank	pTM	ipTM	pLDDT
+run1	001	0.92	0.90	95.350
+run1	002	0.90	0.87	95.308
+run1	003	0.83	0.77	93.955
+run2	001	0.91	0.89	95.214
+run2	002	0.88	0.85	94.907
+run2	003	0.83	0.77	94.008
+
+
+2. Human EGFR Boltz 原始数据
+EGF_human
+Model	confidence	pTM	ipTM	pLDDT
+0	0.9153	0.9677	0.9389	0.9094
+1	0.9117	0.9675	0.9352	0.9058
+2	0.9103	0.9590	0.9143	0.9093
+
+
+7D12_human
+Model	confidence	pTM	ipTM	pLDDT
+0	0.8219	0.7973	0.4049	0.9262
+1	0.8124	0.7789	0.3670	0.9238
+2	0.8092	0.7633	0.3045	0.9354
+
+
+Cetuximab_human
+Model	confidence	pTM	ipTM	pLDDT
+0	0.9781	0.9588	0.9569	0.9834
+1	0.9780	0.9602	0.9580	0.9830
+2	0.9762	0.9520	0.9488	0.9830
+
+
+3. Mouse EGFR ColabFold 原始数据
+mEGFR + EGF
+Model	pLDDT	pTM	ipTM
+model1	91.293	0.890	0.790
+model2	86.740	0.850	0.720
+model3	90.883	0.880	0.800
+model4	91.988	0.890	0.820
+model5	91.745	0.890	0.810
+
+
+mEGFR + 7D12
+Model	pLDDT	pTM	ipTM
+model3	72.872	0.690	0.230
+model5	73.909	0.690	0.210
+model1	75.169	0.680	0.200
+model4	72.579	0.690	0.190
+model2	75.686	0.670	0.170
+
+
+mEGFR + Cetuximab
+Model	pLDDT	pTM	ipTM
+model1	93.889	0.840	0.780
+model3	93.237	0.830	0.770
+model2	93.146	0.820	0.740
+model4	92.274	0.810	0.740
+model5	91.107	0.780	0.690
+
+
+4. Mouse EGFR Boltz 原始数据
+mEGFR + EGF
+repeat	confidence	pTM	ipTM	pLDDT
+1	0.9105	0.9454	0.8845	0.9170
+2	0.9207	0.9514	0.8970	0.9266
+3	0.9236	0.9529	0.8990	0.9297
+4	0.9089	0.9506	0.8950	0.9124
+
+
+mEGFR + 7D12
+repeat	confidence	pTM	ipTM	pLDDT
+1	0.8504	0.8462	0.5877	0.9160
+2	0.8618	0.8749	0.6769	0.9080
+3	0.7971	0.8092	0.4740	0.8778
+4	0.7720	0.7501	0.2927	0.8919
+
+
+mEGFR + Cetuximab
+repeat	confidence	pTM	ipTM	pLDDT
+1	0.9473	0.8932	0.8607	0.9690
+2	0.9486	0.8994	0.8641	0.9697
+3	0.9527	0.9019	0.8752	0.9721
+4	0.9458	0.8898	0.8543	0.9687

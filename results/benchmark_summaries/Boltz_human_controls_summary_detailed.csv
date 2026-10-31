@@ -1,0 +1,10 @@
+system,model,confidence_score,pTM,ipTM,protein_ipTM,complex_pLDDT,interface_pLDDT,complex_pDE,interface_pDE
+7D12_human,7D12_model_0,0.8219,0.7973,0.4049,0.4049,92.62,88.71,0.6183,7.6863
+7D12_human,7D12_model_1,0.8124,0.7789,0.367,0.367,92.38,88.63,0.6492,8.1917
+7D12_human,7D12_model_2,0.8092,0.7633,0.3045,0.3045,93.54,90.3,0.7027,9.2465
+EGF_human,EGF_model_0,0.9153,0.9677,0.9389,0.9389,90.94,91.32,0.2893,0.4366
+EGF_human,EGF_model_1,0.9117,0.9675,0.9352,0.9352,90.58,91.08,0.288,0.4581
+EGF_human,EGF_model_2,0.9103,0.959,0.9143,0.9143,90.93,90.45,0.3106,0.5094
+cetuximab_human,cetuximab_model_0,0.9781,0.9588,0.9569,0.9569,98.34,98.36,0.2995,0.4763
+cetuximab_human,cetuximab_model_1,0.978,0.9602,0.958,0.958,98.3,98.31,0.2985,0.4926
+cetuximab_human,cetuximab_model_2,0.9762,0.952,0.9488,0.9488,98.3,98.3,0.3116,0.5986

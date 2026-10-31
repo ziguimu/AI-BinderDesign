@@ -4,28 +4,31 @@ Benchmark-calibrated de novo protein binder design and structural evaluation.
 
 [中文说明](#中文说明)
 
-## Scope and evidence
+## Research scope
 
-Contains EGFR binder design and EGFR/TNF structural-evaluation work. Target identity, species, controls, and evidence status are documented per result. Model confidence is not experimental affinity.
+This project includes EGFR binder-design materials, EGFR human/mouse structural controls, TNF control benchmarking, shared analysis scripts, and the original 28-slide report. EGFR and TNF datasets are kept separate. The folder name `EFGR` is preserved as supplied in source paths; it denotes the EGFR project.
 
-## Provenance and status
+## Results and evidence limits
 
-This repository is being prepared from existing local work. File-level provenance, source hashes, release manifests, and restoration checks will accompany the archived materials. The current README does not claim that the full archive has already been published or verified.
+The archived work evaluates structural prediction and confidence metrics against selected positive and negative controls. Computational confidence and interface metrics do not establish experimental binding affinity. Each summary table must be interpreted with its included species, model, target construct, and control labels. This repository preserves the source results and does not claim a new scientific rerun.
 
-## Projects
+## Contents
 
-- Project overview and source manifest are being prepared.
+- `EGFR_binder_design/`: source inputs, prediction controls, structures, and analyses.
+- `TNF_benchmark/`: TNF control prediction and analyses.
+- `scripts/`: analysis and summary-building scripts.
+- `results/benchmark_summaries/`: source summary tables.
+- `docs/AI-BinderDesign.pptx`: original project report.
+- Large original prediction outputs will be attached as versioned GitHub Releases with per-file SHA-256 manifests.
 
-## Licenses
+## Reproduction status
 
-Original code: MIT, where rights are established. Original documentation and data: CC BY 4.0, where rights are established. Third-party software, model weights, papers, and datasets retain their original licenses; see the item-level provenance records.
+Historical commands, software versions, and missing details are recorded alongside the relevant source material. No complete clean-room rerun is claimed. See file provenance and release manifests before interpreting or restoring data.
 
 ## 中文说明
 
-基于基准校准的从头蛋白结合剂设计与结构评价。
+本项目包含 EGFR 结合剂设计、EGFR 人/鼠结构对照、TNF 对照基准测试、分析脚本和原始 28 页报告。EGFR 与 TNF 数据分开保存。原始目录名 `EFGR` 按来源保留，指 EGFR 项目。
 
-收录 EGFR 结合剂设计及 EGFR/TNF 结构评价工作。每项结果标注靶点、物种、对照和证据状态。模型置信度不等于实验亲和力。
+项目使用选定阳性与阴性对照评估结构预测和置信度指标。计算置信度及界面指标不能证明实验亲和力。应结合每张表中的物种、模型、靶标构建体和对照标签解读。本仓库保存既有结果，不表示重新运行了科学计算。
 
-当前正在从本地项目整理本仓库。文件来源、哈希、Release 清单和恢复校验将随归档资料提供；本 README 不表示完整归档已发布或验证。
-
-原创代码在权利明确时采用 MIT 许可；原创文档和数据在权利明确时采用 CC BY 4.0。第三方软件、权重、论文和数据沿用原许可，详见逐项来源记录。
+大型原始预测产物将作为带版本的 GitHub Release 附件，并提供逐文件 SHA-256 清单。历史命令、软件版本和缺失信息以实际留存材料为准，不宣称已完成独立全流程复现。

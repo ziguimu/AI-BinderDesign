@@ -1,0 +1,7 @@
+metric,benchmark_range,minimum_candidate,high_confidence,description
+pTM,0.63-0.96,>=0.65,>=0.85,global fold confidence
+ipTM,0.20-0.95,>=0.30,>=0.75,interface confidence
+interface_score,0.12-0.95,>=0.40,>=0.75,unified interface score
+interface_residues,29-126,>=30,>=50,number of interacting residues
+contacts,508-2726,>=500,>=800,atomic contacts
+interface_pLDDT,83-98,>=80,>=90,interface local confidence

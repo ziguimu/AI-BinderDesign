@@ -1,0 +1,8 @@
+metric,recommended_cutoff,basis
+ipTM,0.75,strong binder controls
+pTM,0.8,fold confidence
+interface_score,0.7,interface confidence
+interface_pLDDT,85.0,AF confidence
+BSA,1000.0,typical protein binder interface
+contacts,700.0,stable interface
+interface_residues,30.0,minimum interface size
